@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+For free hosting of your Angular application, you can use platforms like GitHub Pages, Netlify, or Vercel. Here's how to deploy your app for free:
+
+Option 1: GitHub Pages
+
+Install Angular GitHub Pages Deployer:
+
+npm install -g angular-cli-ghpages
+
+Build Your Application:
+
+ng build --prod --base-href "https://<your-username>.github.io/<repository-name>/"
+
+Replace <your-username> with your GitHub username and <repository-name> with the name of your repository.
+Deploy to GitHub Pages:
+
+ngh --dir=dist/ntss-app
+
+Access Your App: Visit https://<your-username>.github.io/<repository-name>/.
