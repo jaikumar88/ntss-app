@@ -1,0 +1,43 @@
+.header {
+  background-color: #007bff;
+  padding: 10px 20px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.header a {
+  color: #fff;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #f9f9f9;
+}
+
+.tabs {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.tabs a {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tabs a:hover {
+  background-color: #0056b3;
+}
+
+.active-tab {
+  background-color: #0056b3;
+}

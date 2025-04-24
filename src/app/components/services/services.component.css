@@ -1,0 +1,27 @@
+.services {
+  padding: 50px 20px;
+  background-color: #fff;
+  padding-left: 50px;
+}
+
+.services h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.service-card h3 {
+  color: #333;
+}
+
+.service-card p {
+  color: #555;
+}

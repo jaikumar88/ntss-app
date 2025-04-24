@@ -1,0 +1,17 @@
+.about {
+  padding: 50px 20px;
+  background-color: #fff;
+  padding-left: 50px;
+}
+
+.about h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
